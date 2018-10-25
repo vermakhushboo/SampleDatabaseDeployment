@@ -2,7 +2,7 @@ const Sequelize = require('sequelize')
 
 const db = new Sequelize('shopdb', 'shopper', 'shoppass', {
     host: 'localhost',
-    dialect: 'mysql',
+    dialect: 'postgres',
     pool: {
         min: 0,
         max: 5,
@@ -44,5 +44,6 @@ db.sync()
     .catch((err) => console.error("Error creating database"))
 
 exports = module.exports = {
-    User, Product
+    User,
+    Product
 }
