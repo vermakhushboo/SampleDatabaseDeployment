@@ -9,7 +9,7 @@ const Sequelize = require('sequelize')
 //     }
 // })
 
-const db = new Sequelize('postgres://kllzitsegqztqc:4616b79316270605f57307f300708dc29660bb2a8fb2e7e4cbe8b9d6ebffdf3f@ec2-54-225-115-234.compute-1.amazonaws.com:5432/d5vmre2fa70uh');
+const db = new Sequelize('postgres://cgwiehdxaecclh:e6f26a426ec542dd08fe4871a6af838d4106157dd1008d91efc27a7699750d98@ec2-54-83-49-109.compute-1.amazonaws.com:5432/dfpmlambfcgo1o');
 
 const User = db.define('users', {
     id: {
